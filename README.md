@@ -101,11 +101,11 @@ For the other options available, check the output of `./layers --help`.
  
 By default, the default subset size *k* is set to *n/2* where *n* is the data set size. The subset size can be explicitly specified using option `-k`:
  
-    ./hvc -r "10 10 10 10" data -k 10
+    ./layers -r "10 10 10 10" data -k 10
     
-The use of the option `-g` is recommended, for better performance as the algorithm starts with an approximated solution.
+The use of the option `-g` is recommended. In general, the code will run faster as it will start with an approximated solution.
 
-For the remainder options available, check the output of `./hvc --help`.
+For the remainder options available, check the output of `./layers --help`.
 
 
 
